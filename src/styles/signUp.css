@@ -1,0 +1,154 @@
+
+  .signup {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .signup:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  .signup-username,
+  .signup-password,
+  .signup-email,
+  .signup-appname {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    border-color: #678fc2;
+  }
+  
+  .signup-success-error p {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .signup-success-error p:first-child {
+    color: #678fc2;
+  }
+  
+  .signup-success-error p:last-child {
+    color: green;
+  }
+  
+  .signup-submit button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .signup-submit button:hover {
+    background: #667eea;
+  }
+  
+  .signup-login {
+    margin-top: 15px;
+  }
+  
+  .signup-login a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .signup-login a:hover {
+    text-decoration: underline;
+  }
+
+
+.signup-submit button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    outline: none;
+  }
+  
+  .signup-submit button:hover {
+    background: #5a67d8;
+  }
+  
+  .signup-submit button:focus {
+    background: #2e3286; 
+    outline: 3px solid #b2b7ff; 
+    transform: scale(1.05); 
+  }
+
+ 
+.signup-submit button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    outline: none;
+  }
+  
+  
+  .signup-submit button:hover {
+    background: #4742dd; 
+    transform: scale(1.05); 
+  }
+  
+
+  .signup-submit button:focus {
+    background: #343270; 
+    outline: 3px solid #b2b7ff; 
+    transform: scale(1.05); 
+  }
+  
+ 
+  .signup-submit button:active {
+    background: #343270; 
+    transform: scale(1); 
+  }
+  
+  
+  

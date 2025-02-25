@@ -1,0 +1,147 @@
+.conversation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .conversation h1 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #007bff, #00aaff);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-history {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    max-width: 75%;
+    word-wrap: break-word;
+  }
+  
+  .my-message {
+    background-color: #add8e6; /* Lighter blue */
+    align-self: flex-end;
+    text-align: left;
+    margin-left: auto;
+  }
+  
+  .other-message {
+    background-color: #d3d3d3; /* Light gray */
+    text-align: left;
+    margin-right: auto;
+  }
+  
+  .message-time {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .send-message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+.return-to-menu button {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  .return-to-menu button:hover {
+    background-color: #e71a03;
+    transform: scale(1.05);
+  }
+  
+  .return-to-menu button:focus {
+    background-color: #e71a03; 
+    outline: 3px solid #ff8a80; 
+    transform: scale(1.05);
+  }
+  
+  .return-to-menu button:active {
+    background-color: #e71a03; 
+    transform: scale(1);
+  }
+  
+  .return-to-menu button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+  }
+  
+
+  
+  textarea {
+    width: 93%; 
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .send-message textarea {
+    max-width: 100%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: none; 
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    width: 100%; 
+  }
+  

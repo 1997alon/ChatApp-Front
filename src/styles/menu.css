@@ -1,0 +1,246 @@
+.menu {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    outline: none;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #4a6edc;
+    transform: scale(1.05);
+  }
+  
+ 
+  button:focus {
+    background: #4c51bf;
+    outline: 3px solid #b2b7ff;
+    transform: scale(1.05);
+  }
+  button:focus:not(:focus-visible) {
+    outline: none; 
+  }
+  
+  button:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+  }
+  
+  .menu-select-users {
+    text-align: left;
+    margin-top: 20px;
+    max-height: 300px;  
+    overflow-y: auto;  
+  }
+  
+  .menu-select-users h3 {
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .menu-select-users ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-select-users li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-select-users label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .menu-chat-with {
+    text-align: left;
+    margin-top: 20px;
+    max-height: 300px;  
+    overflow-y: auto;  
+  }
+  .menu-chat-with h3 {
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .menu-chat-with ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-chat-with li {
+    margin-bottom: 10px;
+  }
+  
+  .chat-with {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  .chat-with:hover {
+    background: #dce2f1;
+    transform: scale(1.05);
+  }
+  
+  .chat-with:focus {
+    background: #c8d1f5;
+    outline: 3px solid #a0b3ff;
+    transform: scale(1.05);
+  }
+  
+  .chat-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .chat-messages {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-messages ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-messages li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .chat-messages li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu-logout {
+    background: #e74c3c;
+  }
+  
+  .menu-logout:hover {
+    background: #e71a03;
+    transform: scale(1.05);
+  }
+  
+  .menu-logout:focus {
+    background: #e71a03;
+    outline: 3px solid #ff8a80;
+    transform: scale(1.05);
+  }
+  
+  .menu-select-users, .menu-chat-with {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-list, .chat-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li, .chat-list li {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-with {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .chat-with:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus-visible {
+    background:  #007bff;
+    outline: 3px solid #b2b7ff;
+    transform: scale(1.05);
+  }
+  
+  button:focus-visible {
+    background: #007bff;
+    outline: 3px solid #b2b7ff;
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;  
+  }
+  
+  .Menu-theme {
+    color: #3458c4; 
+    font-size: 1.7rem; 
+    font-weight: bold; 
+    font-family: 'Arial', sans-serif; 
+    letter-spacing: 0.5px; 
+    
+    padding: 8px 20px; 
+    border-radius: 12px; 
+    text-align: center;
+    background-color: #f2f8ff; 
+    
+    box-sizing: border-box; 
+    line-height: 1.5; 
+    max-width: 90%; 
+    margin: 10px auto; 
+    word-wrap: break-word;
+}
+
+

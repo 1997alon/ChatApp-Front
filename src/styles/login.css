@@ -1,0 +1,123 @@
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+ 
+  .login {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login:hover {
+    transform: scale(1.02);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  .login-username,
+  .login-password {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    border-color: #667eea;
+  }
+  
+  .login-button button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button button:hover {
+    background: #4a6edc;
+  }
+  
+  .login-username p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-username a {
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-username a:hover {
+    text-decoration: underline;
+  }
+  
+
+.login-button button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    outline: none;
+  }
+  
+  .login-button button:hover {
+    background: #4742dd; 
+    transform: scale(1.05); 
+  }
+  
+  
+  .login-button button:focus {
+    background: #4c51bf; 
+    outline: 3px solid #b2b7ff; 
+    transform: scale(1.05); 
+  }
+  
+  .login-button button:active {
+    background: #434190; 
+    transform: scale(1); 
+  }
+  
